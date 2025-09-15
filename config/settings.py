@@ -17,21 +17,21 @@ SECRET_KEY = "django-insecure-%z)*4xzy$$$_o^31#8es5_dncjlu*ygo%$3$s0-yn_z7aat5j3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://globeup-second-release-backend.onrender.com","*"]
+ALLOWED_HOSTS = ["globeup-second-release-backend.onrender.com", "*"]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:3000",
-    "https://ornate-lokum-cdfebe.netlify.app"
-    # add your frontend URLs here
-    
-    "https://globeup-second-release-backend.onrender.com"
+    "https://ornate-lokum-cdfebe.netlify.app",
 ]
+
 CORS_ALLOW_CREDENTIALS = True
 
-
-
-CSRF_TRUSTED_ORIGINS = ['https://globeup-second-release-backend.onrender.com','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = [
+    "https://globeup-second-release-backend.onrender.com",
+    "http://127.0.0.1",
+    "http://localhost"
+]
 
 # Application definition
 
