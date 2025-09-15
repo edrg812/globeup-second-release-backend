@@ -22,16 +22,16 @@ ALLOWED_HOSTS = ["https://globeup-second-release-backend.onrender.com","*"]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:3000",
-    "https://amazon-up-v1.netlify.app",
+    "https://ornate-lokum-cdfebe.netlify.app"
     # add your frontend URLs here
     
-    "https://globeup-international.onrender.com"
+    "https://globeup-second-release-backend.onrender.com"
 ]
 CORS_ALLOW_CREDENTIALS = True
 
 
 
-CSRF_TRUSTED_ORIGINS = ['https://globeup-international.onrender.com','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://globeup-second-release-backend.onrender.com','https://*.127.0.0.1']
 
 # Application definition
 
