@@ -17,7 +17,7 @@ SECRET_KEY = "django-insecure-%z)*4xzy$$$_o^31#8es5_dncjlu*ygo%$3$s0-yn_z7aat5j3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://globeup-international.onrender.com","*"]
+ALLOWED_HOSTS = ["https://globeup-second-release-backend.onrender.com","*"]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
