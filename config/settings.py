@@ -113,12 +113,12 @@ WSGI_APPLICATION = "config.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 
 # Database configuration
@@ -139,13 +139,13 @@ DATABASES = {
 
 
 # # Database configuration
-# DATABASES = {
-#     'default': dj_database_url.config(
-#         default= "postgresql://globe_up_aryt_user:OM2gTLwDX1TeiAWJY8ypegTtvJHbw03R@dpg-d2nu84bipnbc73cv885g-a.singapore-postgres.render.com/globe_up_aryt",
-#         conn_max_age=600,
-#         ssl_require=True
-#     )
-# }
+DATABASES = {
+    'default': dj_database_url.config(
+        default= "postgresql://globeup_second_user:GdCABahDTIWyIaLSFNBeqeKbvMuFAVBp@dpg-d34260ur433s738vg9t0-a.oregon-postgres.render.com/globeup_second",
+        conn_max_age=600,
+        ssl_require=True
+    )
+}
 
 
 
